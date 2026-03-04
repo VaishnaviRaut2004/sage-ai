@@ -1,0 +1,10 @@
+.tmp/
+.env
+credentials.json
+token.json
+__pycache__/
+*.pyc
+venv/
+invoices/
+uploads/
+node_modules/

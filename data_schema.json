@@ -1,0 +1,68 @@
+{
+  "consumer_order_history": {
+    "columns": [
+      "Patient ID",
+      "Patient Age",
+      "Patient Gender",
+      "Purchase Date",
+      "Product Name",
+      "Quantity",
+      "Total Price (EUR)",
+      "Dosage Frequency",
+      "Prescription Required"
+    ],
+    "sample": {
+      "Patient ID": "PAT001",
+      "Patient Age": 45,
+      "Patient Gender": "F",
+      "Purchase Date": "2024-03-15 00:00:00",
+      "Product Name": "Panthenol Spray, 46,3 mg/g Schaum zur Anwendung auf der Haut",
+      "Quantity": 1,
+      "Total Price (EUR)": 16.95,
+      "Dosage Frequency": "Once daily",
+      "Prescription Required": "No"
+    }
+  },
+  "products_export": {
+    "columns": [
+      "product id",
+      "product name",
+      "pzn",
+      "price rec",
+      "package size",
+      "descriptions"
+    ],
+    "sample": {
+      "product id": 16066,
+      "product name": "Panthenol Spray, 46,3 mg/g Schaum zur Anwendung auf der Haut",
+      "pzn": 4020784,
+      "price rec": 16.95,
+      "package size": "130 g",
+      "descriptions": "Schaumspray zur Anwendung auf der Haut. F\u00f6rdert die Regeneration gereizter oder gesch\u00e4digter Haut und spendet Feuchtigkeit."
+    }
+  },
+  "medicine_master_enhanced": {
+    "columns": [
+      "Product ID",
+      "Product Name",
+      "PZN",
+      "Price",
+      "Package Size",
+      "Units Per Pack",
+      "Current Stock Level",
+      "Prescription Required",
+      "Reorder Threshold"
+    ],
+    "sample": {
+      "Product ID": 16066,
+      "Product Name": "Panthenol Spray, 46,3 mg/g Schaum zur Anwendung auf der Haut",
+      "PZN": 4020784,
+      "Price": 16.95,
+      "Package Size": "130 g",
+      "Units Per Pack": 130,
+      "Current Stock Level": 249,
+      "Prescription Required": "No",
+      "Reorder Threshold": 24
+    }
+  }
+}
